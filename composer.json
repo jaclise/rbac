@@ -1,17 +1,30 @@
 {
     "name": "jaclise/rbac",
     "description": "rbac module",
-    "type": "other",
-    "keywords": [],
-    "license": "Apache-2.0",
+    "type": "yii2-extension",
+    "license": "MIT",
+
     "authors": [
         {
             "name": "jaclise",
-            "email": "jaclise.che@gmail.com"
+            "email": "jaclise@gmail.com",
+            "homepage": "https://github.com/jaclise"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
+        "yiisoft/yii2": "2.0.*",
+        "jaclise/core": "dev-develop",
+        "kartik-v/yii2-widget-select2": "*"
     },
-    "extra": {
-    }
+    "autoload": {
+        "psr-4": {
+            "jaclise\\rbac\\": ""
+        }
+  },
+  "extra": {
+    "bootstrap": "jaclise\\rbac\\Bootstrap"
+  }
+
+
 }
