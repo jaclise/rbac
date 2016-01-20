@@ -1,6 +1,6 @@
 <?php
 
-namespace source\modules\rbac\models;
+namespace jaclise\rbac\models;
 
 use Yii;
 

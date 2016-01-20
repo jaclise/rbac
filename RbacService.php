@@ -1,15 +1,15 @@
 <?php
 namespace source\modules\rbac;
 
-use source\modules\rbac\models\Role;
-use source\modules\rbac\models\Assignment;
-use source\modules\rbac\models\Permission;
-use source\modules\rbac\models\Relation;
+use jaclise\rbac\models\Role;
+use jaclise\rbac\models\Assignment;
+use jaclise\rbac\models\Permission;
+use jaclise\rbac\models\Relation;
 use yii\db\Query;
-use source\modules\rbac\models\Category;
+use jaclise\rbac\models\Category;
 use source\LuLu;
 use source\core\front\FrontApplication;
-use source\models\User;
+use jaclise\models\User;
 
 class RbacService extends \source\core\modularity\ModuleService
 {

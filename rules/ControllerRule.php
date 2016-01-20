@@ -1,8 +1,7 @@
 <?php
-namespace source\modules\rbac\rules;
+namespace jaclise\rbac\rules;
 
-use source\core\modularity\ModuleInfo;
-use source\LuLu;
+use Yii;
 
 class ControllerRule extends Rule
 {
@@ -17,7 +16,7 @@ class ControllerRule extends Rule
             return true;
         }
         
-        $method = LuLu::getApp()->request->method;
+        $method = Yii::getApp()->request->method;
         $method = strtolower($method);
         if (in_array($actionId . ':' . $method, $actions))
         {

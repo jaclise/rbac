@@ -2,9 +2,9 @@
 
 use yii\helpers\Html;
 use source\core\widgets\ActiveForm;
-use source\modules\rbac\models\Category;
+use jaclise\rbac\models\Category;
 use source\libs\Constants;
-use source\modules\rbac\models\Role;
+use jaclise\rbac\models\Role;
 
 /* @var $this yii\web\View */
 /* @var $model app\modules\rbac\models\Role */

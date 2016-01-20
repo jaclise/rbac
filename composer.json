@@ -21,9 +21,6 @@
         "psr-4": {
             "jaclise\\rbac\\": ""
         }
-  },
-  "extra": {
-    "bootstrap": "jaclise\\rbac\\Bootstrap"
   }
 
 

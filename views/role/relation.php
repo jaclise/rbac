@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use source\core\widgets\ActiveForm;
+use jaclise\widgets\ActiveForm;
 use source\LuLu;
 
 /* @var $this yii\web\View */

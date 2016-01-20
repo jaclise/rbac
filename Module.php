@@ -1,7 +1,7 @@
 <?php
 namespace jaclise\rbac;
 
-use jaclise\core\BaseModule;
+use jaclise\core\base\BaseModule;
 
 class RbacModule extends BaseModule 
 {

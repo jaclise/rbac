@@ -1,7 +1,5 @@
 <?php
-namespace source\modules\rbac\rules;
-
-use source\core\modularity\ModuleInfo;
+namespace jaclise\rbac\rules;
 
 class Rule extends \yii\base\Object
 {

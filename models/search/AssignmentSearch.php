@@ -1,6 +1,6 @@
 <?php
 
-namespace source\modules\rbac\models\search;
+namespace jaclise\rbac\models\search;
 
 use Yii;
 use yii\base\Model;

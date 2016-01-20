@@ -1,5 +1,5 @@
 <?php
-namespace jaclise\rbac\modules\rbac\models;
+namespace jaclise\rbac\models;
 
 use Yii;
 

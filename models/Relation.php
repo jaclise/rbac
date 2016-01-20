@@ -1,10 +1,10 @@
 <?php
 
-namespace source\modules\rbac\models;
+namespace jaclise\rbac\models;
 
 use Yii;
 use source\LuLu;
-use source\modules\rbac\RbacService;
+use jaclise\rbac\RbacService;
 
 /**
  * This is the model class for table "lulu_auth_relation".

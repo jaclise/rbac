@@ -1,8 +1,5 @@
 <?php
-namespace source\modules\rbac\rules;
-
-use source\core\modularity\ModuleInfo;
-use source\LuLu;
+namespace jaclise\rbac\rules;
 
 class BooleanRule extends Rule
 {

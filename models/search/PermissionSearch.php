@@ -1,12 +1,11 @@
 <?php
 
-namespace source\modules\rbac\models\search;
+namespace  jaclise\rbac\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use source\modules\rbac\models\Permission;
-use source\LuLu;
+use jaclise\rbac\models\Permission;
 
 /**
  * PermissionSearch represents the model behind the search form about `app\modules\rbac\models\Permission`.

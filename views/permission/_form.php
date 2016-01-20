@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use source\core\widgets\ActiveForm;
-use source\modules\rbac\models\Category;
-use source\modules\rbac\models\Permission;
+use jaclise\rbac\models\Category;
+use jaclise\rbac\models\Permission;
 use source\LuLu;
-use source\modules\rbac\rules\Rule;
+use jaclise\rbac\rules\Rule;
 
 /* @var $this yii\web\View */
 /* @var $model app\modules\rbac\models\Permission */

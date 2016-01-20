@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use source\core\grid\GridView;
 use yii\helpers\Url;
 use source\LuLu;
-use source\modules\rbac\models\Role;
+use jaclise\rbac\models\Role;
 use source\libs\Resource;
 
 /* @var $this yii\web\View */

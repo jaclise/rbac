@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use source\core\grid\GridView;
 use source\LuLu;
-use source\modules\rbac\models\Permission;
+use jaclise\rbac\models\Permission;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\modules\rbac\models\search\PermissionSearch */

@@ -1,11 +1,11 @@
 <?php
 
-namespace source\modules\rbac\models\search;
+namespace jaclise\rbac\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use source\modules\rbac\models\Relation;
+use jaclise\rbac\models\Relation;
 
 /**
  * RelationSearch represents the model behind the search form about `app\modules\rbac\models\Relation`.
