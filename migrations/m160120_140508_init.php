@@ -79,7 +79,6 @@ class m160120_140508_init extends Migration
                 ['menu/menu', 'controller', '菜单子项', '', 5, NULL, 'index|首页\r\ncreate|录入\r\nupdate:get|编辑(GET)\r\nupdate:post|编辑(POST)\r\ndelete|删除', 'ControllerRule', 15],
                 ['menu/menu-category', 'controller', '菜单管理', '', 5, NULL, 'index|首页\r\ncreate|录入\r\nupdate:get|编辑(GET)\r\nupdate:post|编辑(POST)\r\ndelete|删除', 'ControllerRule', 10],
                 ['rbac/permission', 'controller', '权限管理', '', 5, NULL, 'index|首页\r\ncreate|录入\r\nupdate:get|编辑(GET)\r\nupdate:post|编辑(POST)\r\ndelete|删除', 'ControllerRule', 1437841705],
-                ['rbac/permission', 'controller', '权限管理', '', 5, NULL, 'index|首页\r\ncreate|录入\r\nupdate:get|编辑(GET)\r\nupdate:post|编辑(POST)\r\ndelete|删除', 'ControllerRule', 1437841705],
                 ['rbac/role', 'controller', '角色管理', '', 5, NULL, 'index|首页\r\ncreate|录入\r\nrelation:get|设置权限(GET)\r\nrelation:post|设置权限(POST)\r\nupdate:get|编辑(GET)\r\nupdate:post|编辑(POST)\r\ndelete|删除', 'ControllerRule', 1437841695],
                 ['system/setting', 'controller', '系统设置', '', 5, NULL, 'basic:get|站点信息(GET)\r\nbasic:post|站点信息(POST)\r\naccess:get|注册与访问控制(GET)\r\naccess:post|注册与访问控制(POST)\r\nseo:get|SEO设置(GET)\r\nseo:post|SEO设置(POST)\r\ndatetime:get|时间设置(GET)\r\ndatetime:post|时间设置(POST)\r\nemail:get|邮件设置(GET)\r\nemail:post|邮件设置(POST)', 'ControllerRule', 0],
                 ['user/user', 'controller', '用户管理', '', 5, NULL, 'index|首页\r\ncreate|录入\r\nupdate:get|编辑(GET)\r\nupdate:post|编辑(POST)\r\ndelete|删除', 'ControllerRule', 1437841685]
@@ -97,7 +96,7 @@ class m160120_140508_init extends Migration
         $this->addPrimaryKey('pk_permission', 'rbac_auth_relation', ['role', 'permission']);
 
         $this->batchInsert('rbac_auth_relation', 
-            [`role`, `permission`, `value`],
+            ['role', 'permission', 'value'],
             [
                 ['administrator', 'allow_access', '*'],
                 ['administrator', 'deny_access', ''],
@@ -128,7 +127,6 @@ class m160120_140508_init extends Migration
                 ['administrator', 'admin', '管理员', '', 1],
                 ['demo', 'admin', '测试角色', '', 0],
                 ['deny_access', 'system', '禁止访问', '', 1],
-                ['deny_speak', 'system', '禁止发言', '', 1],
                 ['deny_speak', 'system', '禁止发言', '', 1],
                 ['editor', 'admin', '编辑', '', 0],
                 ['guest', 'system', '游客', '', 1],
